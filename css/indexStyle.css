@@ -63,6 +63,12 @@ body{
     background-color: rgba(82, 82, 255, 0.5);
 }
 
+.errorMessage{
+    margin: 0px;
+    color: red;
+    font-size: 12px;
+}
+
 h3{
     margin-left: 15px;
 }
@@ -79,6 +85,10 @@ h3{
 .inputItems input{
     border-radius: 5px;
 }
+.inputItems input:focus{
+    border-color: blue;
+}
+
 .inputItems input:invalid{
     border-color: red;
 }
@@ -97,3 +107,11 @@ h3{
     width: auto;
 }
 
+.rightSideFlexBottom a{
+    color:rgb(98, 32, 252);
+    text-decoration: underline;
+}
+
+.rightSideFlexBottom a:hover{
+    color: white;
+}
