@@ -1,0 +1,99 @@
+body{
+    margin: 0px;
+   
+}
+
+.mainBodyFlex{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+}
+.leftSideFlex{
+    display: flex;
+    width: 35%;
+   
+}
+.leftSideFlex img{
+    width: 100%;
+    height: 100%;
+
+}
+
+#pictureText{
+    position: absolute;
+    bottom: 10px;
+    left: 1vw;
+    color: rgb(228, 74, 74);
+}
+
+#pictureText a{
+    color: rgba(0, 0, 0, 0.562);
+}
+#pictureText a:hover{
+    color: rgb(243, 208, 142);
+}
+.rightSideFlex{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightSideFlexUp{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to Bottom, rgba(4, 238, 255, 0.438),rgb(82, 82, 255, 0.5));
+}
+
+
+#inputField{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    border-style: solid;
+    border-left: none;
+    border-right: none;
+    border-color: rgb(147, 128, 255);
+    align-items: center;
+    background-color: rgba(82, 82, 255, 0.5);
+}
+
+h3{
+    margin-left: 15px;
+}
+
+#inputFieldContainer{
+    display: flex;
+}
+.inputItems{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+
+.inputItems input{
+    border-radius: 5px;
+}
+.inputItems input:invalid{
+    border-color: red;
+}
+
+.rightSideFlexBottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to Top, rgba(4, 238, 255, 0.438),rgba(82, 82, 255, 0.5));
+}
+
+.rightSideFlexBottom button{
+    margin-top: 10px;
+    width: auto;
+}
+

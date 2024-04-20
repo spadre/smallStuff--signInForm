@@ -9,11 +9,57 @@
 </head>
 <body>
     <div class="mainBodyFlex">
-        <div class="upperBodyFlex">
+        <div class="leftSideFlex">
+            <div>
+            <img src="../img/sean-oulashin-KMn4VEeEPR8-unsplash.jpg" alt="Eclipse">
+            <div id="pictureText">Picture by <a href="https://unsplash.com/@oulashin">Sean Oulashin</a> on <a href="https://unsplash.com/photos/seashore-during-golden-hour-KMn4VEeEPR8">Unsplash</a></div>
+            </div>
         </div>
-        <div class="lowerBodyFlex">
+        <div class="rightSideFlex">
+            <div class="rightSideFlexUp">
             
+            </div>
+            <fieldset id="inputField">
+                <h3>Create account</h3>
+                <div id="inputFieldContainer">
+                    <div>
+                        <div class="inputItems">    
+                            <label for="first_name">First Name</label>
+                            <input type="text" id="first_name" name="first_name" autocomplete="off" required>
+                        </div>
+                        <div class="inputItems"> 
+                            <label for="phone_number">Phone Number</label>
+                            <input type="text" id="phone_number" name="phone_number" maxlength="15" pattern="\d{15}" autocomplete="off" required>
+                        </div>
+                        <div class="inputItems"> 
+                            <label for="password">Password</label>
+                            <input type="password" id="password" name="password" autocomplete="off"  required>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="inputItems">
+                            <label for="last_name">Last Name</label>
+                            <input type="text" id="last_name" name="last_name" autocomplete="off"  required>
+                        </div>
+                        <div class="inputItems"> 
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" autocomplete="off"  required>
+                        </div>
+
+                        <div class="inputItems"> 
+                            <label for="confirm_password">Confirm Password</label>
+                            <input type="password" id="confirm_password" name="confirm_password" autocomplete="off"  required>
+                        </div>
+                    </div>  
+                </div>  
+            </fieldset>
+            <div class="rightSideFlexBottom">
+                <button id="createAccBtn">Create Account</button>
+                <p>Already have an account? <a>Log in</a></p>
+            </div>
         </div>
     </div>
+
 </body>
 </html>
